@@ -192,7 +192,7 @@
             <ul class="pull-right flip hidden-sm hidden-xs">
               <li>
                 <!-- Modal: Register Form Starts -->
-                 <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-30" href="ajax-load/register.html">Register Today</a>
+                <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" data-toggle="modal" data-target="#BSParentModal" href="ajax-load/register.html">Register Today</a>
                 <!-- Modal: Register End -->
               </li>
             </ul>
