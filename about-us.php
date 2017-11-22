@@ -272,7 +272,6 @@
             <div class="col-md-6">
               <h3 class="mt-5 mb-5 text-white vertical-align-middle"><i class="pe-7s-mail mr-10 font-48 vertical-align-middle"></i> SUBSCRIBE TO OUR NEWSLETTER</h3>
             </div>
-			
             <div class="col-md-6">
               <!-- Mailchimp Subscription Form Starts Here -->
               <form id="mailchimp-subscription-form" class="newsletter-form mt-10">
@@ -309,34 +308,7 @@
         </div>
       </div>
     </section>
-	
-	
-	<h3>Newsletter Subscription Form</h3><br /><br />
-<form action="http://www.digititan.com/index.php"" method="post" id="NewsletterSubscriptionForm" onsubmit="return ValidateForm(this);" target="_top">
-<input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="your@email.com" />
-<input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="SRTXPF3QWD5B" />
-<input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="http://www.digititan.com/index.php" />
-<input id="skip_Subject" name="skip_Subject" type="hidden" value="Newsletter Subscription Form" />
-<input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
-<script type="text/javascript">
-function ValidateForm(frm) {
-if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
-if (frm.Organization.value == "") {alert('Organization is required.');frm.Organization.focus();return false;}
-if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
-if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
-return true; }
-</script>
-<table border="0" cellpadding="5" cellspacing="0" style="width:360px; margin:auto; text-align:left;">
-<tr><td>
-EMAIL<br />
-<input id="FromEmailAddress" name="FromEmailAddress" type="text" maxlength="60" style="width:340px; border:1px solid #999999" />
-</td></tr>
-<tr><td style="padding-bottom:18px;">
-<br/>
-<input id="skip_Submit" name="skip_Submit" type="submit" value="SUBSCRIBE" />
-</td></tr>
-</table>
-</form>
+
 	
 
   </div>
