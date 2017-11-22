@@ -1,0 +1,121 @@
+
+<div class="modal-header bg-theme-colored">
+  <h4 class="modal-title text-white" id="myModalLabel">Registration Form</h4>
+</div>
+<div class="p-40">
+  <!-- Reservation Form Start-->
+    <form id="registrationForm" name="registrationForm" class="reservation-form" method="post" action="includes/registration.php"><h3 class="mt-0 line-bottom text-theme-colored mb-40">Get Started<span class="text-theme-colored font-weight-600"> Today!</span></h3>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group mb-30">
+            <input placeholder="Enter Name and Surname" type="text" id="name_surname" name="name_surname" required="" class="form-control">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <input placeholder="Email" type="text" id="email" name="email" class="form-control" required="">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <input placeholder="Phone" type="text" id="phone" name="phone" class="form-control" required="">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              <select id="selectProgramme" name="selectProgramme" class="form-control" required="">
+                <option value="">-Choose programme -</option>
+                <option value="Google Digital ICT Skills">Google Digital ICT Skills</option>
+                <option value="Oracle Java Programme">Oracle Java Programme</option>
+                <option value="TVET ICT Skills">TVET ICT Skills</option>
+                <option value="Cisco Networking Academy">Cisco Networking Academy</option>
+              </select>
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              <select id="registerType" name="registerType" class="form-control" required="">
+                <option value="">-Register as -</option>
+                <option value="Trainee">Trainee</option>
+                <option value="Trainer">Trainer</option>
+                <option value="Co-Ordinator">Co-Ordinator</option>
+                <option value="Institution">Institution</option>
+              </select>
+            </div>
+          </div>
+        </div>
+          
+          <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              <select id="nearestTown" name="neatestTown" class="form-control" required="">
+                <option value="">-Choose nearest town/city -</option>
+                <option value="Cape Town">Cape Town</option>
+                <option value="Johannesburg">Johannesburg</option>
+                  <option value="Heidelburg">Heidelburg</option>
+                <option value="Durban">Durban</option>
+                <option value="Petermartzburg">Petermartzburg</option>
+                  <option value="Newcastle">Newcastle</option>
+                  <option value="Stanger">Stanger</option>
+                  <option value="oracle">Richards Bay</option>
+                  <option value="Pongola">Pongola</option>
+                  <option value="Vryheid">Vryheid</option>
+                  <option value="uMtata">uMtata</option>
+                  <option value="East London">East London</option>
+                  <option value="Port Elizabeth">Port Elizabeth</option>
+                  <option value="Bloemfontein">Bloemfontein</option>
+                  <option value="Welkom">Welkom</option>
+                  <option value="Polokwane">Polokwane</option>
+                  <option value="Musina">Musina</option>
+                  <option value="Pretoria">Pretoria</option>
+                  <option value="Rusternburg">Rusternburg</option>
+                  <option value="Kimberly">Kimberly</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12">
+          <div class="form-group mb-0 mt-0">
+            <input name="form_botcheck" class="form-control" type="hidden" value="">
+            <button type="submit" class="btn btn-colored btn-theme-colored btn-lg btn-flat border-left-theme-colored-4px" data-loading-text="Please wait...">Submit Now</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <!-- Reservation Form End-->
+
+    <!-- Reservation Form Validation Start-->
+    <script type="text/javascript">
+      $("#registrationForm").validate({
+        submitHandler: function(form) {
+          var form_btn = $(form).find('button[type="submit"]');
+          var form_result_div = '#form-result';
+          $(form_result_div).remove();
+          form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+          var form_btn_old_msg = form_btn.html();
+          form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+          $(form).ajaxSubmit({
+            dataType:  'json',
+            success: function(data) {
+              if( data.status == 'true' ) {
+                $(form).find('.form-control').val('');
+              }
+              form_btn.prop('disabled', false).html(form_btn_old_msg);
+              $(form_result_div).html(data.message).fadeIn('slow');
+              setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+            }
+          });
+        }
+      });
+    </script>
+    <!-- Reservation Form Validation Start -->
+</div>
+<!-- Footer Scripts -->
+<script>
+  //reload date and time picker
+  THEMEMASCOT.initialize.TM_datePicker();
+</script>
