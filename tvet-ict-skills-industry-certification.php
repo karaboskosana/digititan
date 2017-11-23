@@ -270,7 +270,7 @@
                 </li>
                 <li>|</li>
                 <li>
-                  Website Developed and hosted by <a href="http://www.kimmedia.net.za">Kimmedia Technologies </a>
+                  Website Developed and hosted by <a href="http://www.kimmedia.net.za">Jaspa Systems </a>
                 </li>
               </ul>
             </div>
