@@ -322,7 +322,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="#">View Details</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="about-us.php">View Details</a> 
                 </div>
               </li>
 
@@ -427,7 +427,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="#">Apply Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="ajax-load/register.html">Apply Now</a> 
                 </div>
               </li>
 
@@ -532,7 +532,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored btn-theme-colored border-right-theme-color-2-6px pl-20 pr-20" href="#">Apply Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored btn-theme-colored border-right-theme-color-2-6px pl-20 pr-20" href="ajax-load/register.html">Apply Now</a> 
                 </div>
               </li>
 
@@ -710,7 +710,14 @@
             <div class="col-md-12 text-center">
               <h2 class="title font-42 text-theme-colored mt-30 mb-20">About Our Digititan</h2>
               <p class="mb-20">Digititan is a leading African Information and Communication Technology (ICT) Skills Development company that utilizes a skills development ecosystem to prepare African ICT graduates for the ever-changing global environment.</p>
-              <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-30" href="ajax-load/register.html">Get Started</a>
+               
+			   <ul class="pull-center flip hidden-sm hidden-xs">
+              <li>
+                <!-- Modal: Register Form Starts -->
+                <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-30"  data-toggle="modal" data-target="#BSParentModal"   href="ajax-load/register.html">Get Started</a>
+                <!-- Modal: Register End -->
+              </li>
+            </ul>
 
             </div>
           </div>
