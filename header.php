@@ -38,10 +38,10 @@
               <ul class="styled-icons icon-circled icon-sm pull-right flip sm-pull-none sm-text-center mt-sm-15">
                 <li><a href="https://www.facebook.com/digititan"><i class="fa fa-facebook text-white"></i></a></li>
                 <li><a href="https://twitter.com/digi_titan"><i class="fa fa-twitter text-white"></i></a></li>
-                <!--
-                  <li><a href="#"><i class="fa fa-google-plus text-white"></i></a></li> -->
-                <li><a href="https://www.instagram.com/digititan1"><i class="fa fa-instagram text-white"></i></a></li><!--
-                <li><a href="#"><i class="fa fa-linkedin text-white"></i></a></li> -->
+				 <li><a href="https://plus.google.com/u/0/communities/109906174068797435774"><i class="fa fa-google-plus text-white"></i></a></li>
+                <li><a href="https://www.instagram.com/digititan1"><i class="fa fa-instagram text-white"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/digititan1/"><i class="fa fa-linkedin text-white"></i></a></li>
+                 <li><a href="https://www.youtube.com/channel/UC2NFWcx6W9R4hxJX7uQSoSA?"><i class="fa fa-YouTube text-white"></i></a></li> 				
               </ul>
             </div>
           </div>

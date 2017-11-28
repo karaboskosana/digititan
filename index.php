@@ -117,10 +117,10 @@
               <ul class="styled-icons icon-circled icon-sm pull-right flip sm-pull-none sm-text-center mt-sm-15">
                 <li><a href="https://www.facebook.com/digititan"><i class="fa fa-facebook text-white"></i></a></li>
                 <li><a href="https://twitter.com/digi_titan"><i class="fa fa-twitter text-white"></i></a></li>
-                <!--
-                  <li><a href="#"><i class="fa fa-google-plus text-white"></i></a></li> -->
-                <li><a href="https://www.instagram.com/digititan1"><i class="fa fa-instagram text-white"></i></a></li><!--
-                <li><a href="#"><i class="fa fa-linkedin text-white"></i></a></li> -->
+                  <li><a href="https://plus.google.com/u/0/communities/109906174068797435774"><i class="fa fa-google-plus text-white"></i></a></li>
+                <li><a href="https://www.instagram.com/digititan1"><i class="fa fa-instagram text-white"></i></a></li>
+                 <li><a href="https://www.linkedin.com/company/digititan1/"><i class="fa fa-linkedin text-white"></i></a></li> 
+				  <li><a href="https://www.youtube.com/channel/UC2NFWcx6W9R4hxJX7uQSoSA?"><i class="fa fa-youtube text-white"></i></a></li>
               </ul>
             </div>
           </div>
@@ -907,7 +907,7 @@
       <div class="container pt-10 pb-0">
         <div class="row">
           <div class="col-md-12">
-              <h2 class="text-uppercase text-theme-colored title line-bottom line-height-1 mt-0">OUR <span class="text-theme-color-2 font-weight-400">PARTNERS</span></h2>
+              <h2 class="text-uppercase text-theme-colored title line-bottom line-height-1 mt-0">OUR PARTNERS</span></h2>
             <!-- Section: Clients -->
             <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top">
               <div class="item"> <a href="#"><img src="images/partners/1.png" alt=""></a></div>
