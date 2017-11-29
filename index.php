@@ -113,6 +113,7 @@
                 </li>
               </ul>
             </div>
+			<!-- Social media links -->
             <div class="widget no-border m-0 mr-15 pull-right flip sm-pull-none sm-text-center">
               <ul class="styled-icons icon-circled icon-sm pull-right flip sm-pull-none sm-text-center mt-sm-15">
                 <li><a href="https://www.facebook.com/digititan"><i class="fa fa-facebook text-white"></i></a></li>
@@ -123,6 +124,7 @@
 				  <li><a href="https://www.youtube.com/channel/UC2NFWcx6W9R4hxJX7uQSoSA?"><i class="fa fa-youtube text-white"></i></a></li>
               </ul>
             </div>
+			<!-- end of social media links-->
           </div>
         </div>
       </div>
@@ -666,7 +668,9 @@
                     </div>
                     <div class="content text-left flip p-25 pt-0">
                       <h4 class="line-bottom mb-10">Oracle Java Programme</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam ipsum quis ipsum facilisis sit amet.</p>
+                      <p>This trail covers the fundamentals of programming in the Java programming language. Object-Oriented Programming Concepts teaches you the core .
+
+.</p>
                      <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="oracle-java-training.php">view details</a>
                    </div>
                   </div>
@@ -709,7 +713,7 @@
           <div class="row">
             <div class="col-md-12 text-center">
               <h2 class="title font-42 text-theme-colored mt-30 mb-20">About Our Digititan</h2>
-              <p class="mb-20">Digititan is a leading African Information and Communication Technology (ICT) Skills Development company that utilizes a skills development ecosystem to prepare African ICT graduates for the ever-changing global environment.</p>
+              <p class="text-white mb-20" >Digititan is a leading African Information and Communication Technology (ICT) Skills Development company that utilizes a skills development ecosystem to prepare African ICT graduates for the ever-changing global environment.</p>
                
 			   <ul class="pull-center flip hidden-sm hidden-xs">
               <li>

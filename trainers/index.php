@@ -170,10 +170,6 @@ if(isset($_SESSION['UID'] )){
 			<a class="logo"><img src="images/logo.png" height="50px"/></a>
 			<nav class="nav">
 				<li><a href="">HOME</a></li>
-				<li><a href="guest/">GUEST</a></li>
-				<li><a href="guest/categories-list-guest.php">CATEGORIES</a></li>
-				<li><a href="guest/rooms-guest.php">ROOMS</a></li>
-				<!--<li><a href="guest/about.php">ABOUT</a></li>-->
 				<li><a class="login-nav">LOGIN</a></li>
 				<li><a class="signup-nav">SIGN UP</a></li>			
 			</nav>
@@ -181,10 +177,6 @@ if(isset($_SESSION['UID'] )){
 			
 			<nav class="responsive-nav WhiteHeader">
 					<li><a href="">HOME</a></li>
-					<li><a href="guest/">GUEST</a></li>
-					<li><a href="guest/categories-list-guest.php">CATEGORIES</a></li>
-					<li><a href="guest/rooms-guest.php">ROOMS</a></li>
-					<!--<li><a href="guest/about.php">ABOUT</a></li>-->
 					<li><a class="login-nav">LOGIN</a></li>
 					<li><a class="signup-nav">SIGN UP</a></li>
 			</nav>
